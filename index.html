@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Pagina de login para stream</title>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        
+        
+        <script type="text/javascript">
+
+            function hizoClick_v2() 
+            {
+                var botonLogueo = document.getElementById('btnParaLoguarse');
+
+                botonLogueo.onclick = function() {
+                    hizoClick();
+                }
+
+            }
+
+            function hizoClick()
+            {
+                alert("Hizo click");
+                
+            }
+
+        </script>
+    </head>
+    <body style="padding-top: 100px;">
+            <div class="container" style="text-align: center;">
+                <div class="row">
+                    <div class="col">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/cuidardgatito-t.jpg" style="width: 300px;"/>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+                <div class="row" style="padding-top:40px;">
+                    <div class="col">
+                    </div>
+                    <div class="col">
+                        <label>Ingrese correo electronico:</label>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                    </div>
+                    <div class="col">
+                        <input type="text"/>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                    </div>
+                    <div class="col">
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                    </div>
+                    <div class="col">
+                        <label>Ingrese password:</label>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                    </div>
+                    <div class="col">
+                        <input type="password"/>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 50px;">
+                    <div class="col">
+                    </div>
+                    <div class="col">
+                        <input id="btnParaLoguarse" type="button" value="Loguearse" onClick="hizoClick_v2();"/>                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+            </div>
+
+    </body>
+
+</html>
