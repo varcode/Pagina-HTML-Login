@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Pagina para registrarse</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        
+    </head>
+    <style>
+        .fila { padding-top: 10px;}
+        .boton_registrarse {margin-top: 50px;}
+        .label_registrarse {padding-left:300px;}
+        .input_correo_electronico {length: 100px;}
+    </style>
+   <body style="padding-top: 50px;">
+            <center><H2>Por favor, registrese</H2></center>
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="row fila">
+                        <div class="col">
+                            <label class="label_registrarse">
+                                Correo Electronico
+                            </label>
+                        </div>
+                        <div class="col">
+                            <input class="input_correo_electronico" type="email"></input>
+                        </div>
+                    </div>
+                    <div class="row fila">
+                        <div class="col">
+                            <label class="label_registrarse">
+                                Password
+                            </label>
+                        </div>
+                        <div class="col">
+                            <input type="password"></input>
+                        </div>
+                    </div>
+                    <div class="row fila">
+                        <div class="col">
+                            <label class="label_registrarse">
+                                Nombre y Apellido
+                            </label>
+                        </div>
+                        <div class="col">
+                            <input type="text"></input>
+                        </div>
+                    </div>
+                    <div class="row fila">
+                        <div class="col">
+                            <label class="label_registrarse">
+                                Fecha de Nacimiento
+                            </label>
+                        </div>
+                        <div class="col">
+                            <input type="date"></input>
+                        </div>
+                    </div>
+
+                    <div class="row fila">
+                        <div class="col">
+                            <label class="label_registrarse">
+                                Pais de residencia
+                            </label>
+                        </div>
+                        <div class="col">
+                            <select class="form-select" name="paises" id="paises">
+                                <option value="Argentina">Argentina</option>
+                                <option value="Brasil">Brasil</option>
+                                <option value="Chile">Chile</option>
+                                <option value="Uruguay">Uruguay</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            <center><input class="boton_registrarse" type="button" value="Registrarse"></input></center>
+    </body>
+</html>
